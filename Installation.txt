@@ -1,5 +1,3 @@
-Xampp Server
-
 Database name: erp3
 Database file: database/erp3.sql
 
