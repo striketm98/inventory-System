@@ -173,8 +173,24 @@ INSERT INTO `location` (`LOCATION_ID`, `PROVINCE`, `CITY`) VALUES
 (158, 'Negros Occidental', 'Binalbagan');
 
 -- --------------------------------------------------------
+--
+-- Table structure for table `manager`
+--
+
+CREATE TABLE `manager` (
+  `FIRST_NAME` varchar(50) DEFAULT NULL,
+  `LAST_NAME` varchar(50) DEFAULT NULL,
+  `LOCATION_ID` int(11) NOT NULL,
+  `EMAIL` varchar(50) DEFAULT NULL,
+  `PHONE_NUMBER` varchar(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Dumping data for table `manager`
+--
+
+INSERT INTO `manager` (`FIRST_NAME`, `LAST_NAME`, `LOCATION_ID`, `EMAIL`, `PHONE_NUMBER`) VALUES
+('Soumojit', 'Das', 113, 'soumojit@gmail.com', '09124033805'),
 
 -- --------------------------------------------------------
 
