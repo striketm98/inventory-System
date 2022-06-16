@@ -1,8 +1,6 @@
-<<<<<<< HEAD:erp/Installation.txt
 Server
 
-=======
->>>>>>> 785ff84f2bede2c6acc5bc78ba278a5baddb6e2d:Installation.txt
+
 Database name: erp3
 Database file: database/erp3.sql
 
@@ -10,16 +8,47 @@ Database connection file(incase change)
 includes/connection.php
 ########################################
 
+User:
+
 Admin Logn Details
-<<<<<<< HEAD:erp/Installation.txt
 User: Soumojit@gmail.com 
-=======
-User: Soumojit@gmail.com
->>>>>>> 785ff84f2bede2c6acc5bc78ba278a5baddb6e2d:Installation.txt
 Pass: Soumojit@123
 
 Sales/Cashier
 User: tamal@gmail.com
 Pass: Tamal@123
+
+Table: 
+
+Catagroy: 
+
+Keyboard,Mouse,Monitor,Motherboard,Processor,Power Supply,Headset,CPU,Others;
+
+Customer:
+First Name                 Last Name       Phone
+Hailee,                    Steinfield,     09394566543
+A Walk in Customer                         
+Chuchay                    Jusay,          09781633451,
+Kimbert                    Duyag,          09956288467
+Dieqcohr                   Rufino,         09891344576
+
+
+Product:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
