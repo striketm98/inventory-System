@@ -1,5 +1,8 @@
+<<<<<<< HEAD:erp/Installation.txt
 Server
 
+=======
+>>>>>>> 785ff84f2bede2c6acc5bc78ba278a5baddb6e2d:Installation.txt
 Database name: erp3
 Database file: database/erp3.sql
 
@@ -8,7 +11,11 @@ includes/connection.php
 ########################################
 
 Admin Logn Details
+<<<<<<< HEAD:erp/Installation.txt
 User: Soumojit@gmail.com 
+=======
+User: Soumojit@gmail.com
+>>>>>>> 785ff84f2bede2c6acc5bc78ba278a5baddb6e2d:Installation.txt
 Pass: Soumojit@123
 
 Sales/Cashier
