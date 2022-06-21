@@ -96,7 +96,8 @@ CREATE TABLE `employee` (
 
 INSERT INTO `employee` (`EMPLOYEE_ID`, `FIRST_NAME`, `LAST_NAME`, `GENDER`, `EMAIL`, `PHONE_NUMBER`, `JOB_ID`, `HIRED_DATE`, `LOCATION_ID`) VALUES
 (112064,'Tamal', 'Mazumder', 'Male', 'tamal@gmail.com', '091234567', 2, '2021-08-20', 113),
-(202122,'Soumojit', 'Das', 'Male', 'soumojit@gmail.com', '09015501897', 1, '2019-01-28', 156);
+(202123,'Smritimoy', 'Halder', 'Male', 'smritimoy@gmail.com', '09015501887', 1, '2019-01-29', 156),
+(202122,'Soumojit', 'Dasgupta', 'Male', 'soumojit@gmail.com', '09015501897', 1, '2019-01-28', 156);
 
 
 -- --------------------------------------------------------
@@ -190,6 +191,7 @@ CREATE TABLE `manager` (
 --
 
 INSERT INTO `manager` (`FIRST_NAME`, `LAST_NAME`, `LOCATION_ID`, `EMAIL`, `PHONE_NUMBER`) VALUES
+('Smritimoy', 'Halder', 113, 'Smritimoy@gmail.com', '09015501887'),
 ('Soumojit', 'Das', 113, 'soumojit@gmail.com', '09124033805');
 
 -- --------------------------------------------------------
@@ -381,7 +383,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`ID`, `EMPLOYEE_ID`, `USERNAME`, `PASSWORD`, `TYPE_ID`) VALUES
 (1, 202122,'soumojit@gmail.com', '9a69895bfd779306c638a05b835dd8decb61d51d', 1),
-(2, 112064, 'tamal@gmail.com', 'faf0c8552e88079e731889d555d8894d0e42be34', 2);
+(2, 202123,'smritimoy@gmail.com', 'cf03725bde0260a56cdbd6e7cc3d7c1dd6a55286', 1),
+(3, 112064, 'tamal@gmail.com', 'faf0c8552e88079e731889d555d8894d0e42be34', 2);
 
 
 --
