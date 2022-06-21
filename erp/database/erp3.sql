@@ -191,7 +191,7 @@ CREATE TABLE `manager` (
 --
 
 INSERT INTO `manager` (`FIRST_NAME`, `LAST_NAME`, `LOCATION_ID`, `EMAIL`, `PHONE_NUMBER`) VALUES
-('Smritimoy', 'Halder', 113, 'Smritimoy@gmail.com', '09015501887'),
+('Smritimoy', 'Halder', 113, 'smritimoy@gmail.com', '09015501887'),
 ('Soumojit', 'Das', 113, 'soumojit@gmail.com', '09124033805');
 
 -- --------------------------------------------------------
